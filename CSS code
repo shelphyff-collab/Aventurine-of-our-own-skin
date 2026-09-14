@@ -1,11 +1,11 @@
 #header {
-background-image: url("https://i.postimg.cc/2yRmpjNc/aven-water-night-head.png") !important;
-background-repeat: no-repeat !important;
-background-size: cover !important;
-background-position: 20% 20% !important;
-position: relative;
-z-index: 10;
-border: none !important;
+  background-image: url("https://i.postimg.cc/2yRmpjNc/aven-water-night-head.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: 20% 20% !important;
+  position: relative;
+  z-index: 10;
+  border: none !important;
 }
 
 #header ul.primary,
@@ -13,93 +13,87 @@ border: none !important;
 #header .menu,
 #header ul.user.navigation,
 #header .user.navigation {
-background-color: rgba(100, 100, 190, 0.85) !important;
-background-image: none !important;
-box-shadow: none !important;
-border: none !important;
+  background-color: rgba(100, 100, 190, 0.85) !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 
 #header .logo,
 #header h1 sup {
-display: none !important;
+  display: none !important;
 }
 
 #header h1 {
-display: flex;
-justify-content: flex-end;
-align-items: center;
-height: 15em;
-margin: 0;
-width: 100%;
-padding-right: 5%;
-box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 15em;
+  margin: 0;
+  width: 100%;
+  padding-right: 5%;
+  box-sizing: border-box;
 }
 
 #header h1 a {
-text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 #header h1 a span {
-display: none !important;
-}
-
-#header h1::before {
-content: "🎲 ";
-font-size: 45px !important;
-filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.8));
-margin-right: 15px;
+  display: none !important;
 }
 
 #header h1 a::before {
-content: "Aventurine of Our Own";
-display: inline-block;
-font-size: 55px !important;
-line-height: 1.2 !important;
-letter-spacing: normal !important;
-white-space: nowrap;
-font-family: 'Snell Roundhand', 'Monotype Corsiva', 'Brush Script MT', 'Lucida Handwriting', 'Apple Chancery', cursive !important;
-font-weight: normal !important;
-background: linear-gradient(to top, #c8fafa, #fafac8);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-color: transparent !important;
-filter: drop-shadow(-1px -1px 0 #1a2052)
-drop-shadow(1px -1px 0 #1a2052)
-drop-shadow(-1px 1px 0 #1a2052)
-drop-shadow(1px 1px 0 #1a2052)
-drop-shadow(3px 3px 0 rgba(12, 16, 51, 0.8))
-drop-shadow(4px 4px 0 rgba(12, 16, 51, 0.8))
-drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.6)) !important;
+  content: "Aventurine \A of Our Own";
+  white-space: pre-wrap !important;
+  text-align: right !important;
+  display: inline-block;
+  font-size: 45px !important;
+  line-height: 1.1 !important;
+  letter-spacing: normal !important;
+  font-family: 'Snell Roundhand', 'Monotype Corsiva', 'Brush Script MT', 'Lucida Handwriting', 'Apple Chancery', cursive !important;
+  font-weight: normal !important;
+  background: linear-gradient(to top, #c8fafa, #fafac8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent !important;
+  filter: drop-shadow(-1px -1px 0 #1a2052)
+          drop-shadow(1px -1px 0 #1a2052)
+          drop-shadow(-1px 1px 0 #1a2052)
+          drop-shadow(1px 1px 0 #1a2052)
+          drop-shadow(3px 3px 0 rgba(12, 16, 51, 0.8))
+          drop-shadow(4px 4px 0 rgba(12, 16, 51, 0.8))
+          drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.6)) !important;
 }
 
 #header h1::after {
-content: " 🌊";
-font-size: 45px !important;
-filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.8));
-margin-left: 15px;
+  content: " 🌊";
+  font-size: 45px !important;
+  filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.8));
+  margin-left: 15px;
 }
 
 body {
-background: transparent !important;
-position: relative;
+  background: transparent !important;
+  position: relative;
 }
 
 body::before {
-content: "";
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-z-index: -1;
-background-color: #241ebd !important;
-background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png") !important;
-background-repeat: repeat !important;
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: #241ebd !important;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png") !important;
+  background-repeat: repeat !important;
 }
 
 #outer.wrapper {
-background: transparent !important;
-box-shadow: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
 }
 
 #main > .heading,
@@ -107,16 +101,16 @@ box-shadow: none !important;
 #main > h3,
 #main > .heading a,
 #main > h2 a {
-color: #ffffff !important;
-text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8) !important;
-background: transparent !important;
-border: none !important;
-box-shadow: none !important;
+  color: #ffffff !important;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8) !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
 #main > .heading a:hover,
 #main > h2 a:hover {
-color: #ebd59b !important;
+  color: #ebd59b !important;
 }
 
 #main,
@@ -126,11 +120,11 @@ color: #ebd59b !important;
 .wrapper,
 dl.meta,
 .works-show div.preface.group .module {
-background: transparent !important;
-background-image: none !important;
-background-color: transparent !important;
-box-shadow: none !important;
-border: none !important;
+  background: transparent !important;
+  background-image: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 
 li.blurb,
@@ -141,32 +135,26 @@ li.blurb,
 li.comment,
 div.system.flash,
 li.letter {
-background-color: #241ebd !important;
-background-image: url("http://www.transparenttextures.com/patterns/white-diamond.png") !important;
-border: 1px solid rgba(255, 255, 255, 0.2) !important;
-border-top: 1px solid rgba(255, 255, 255, 0.5) !important;
-border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
-color: #ffffff !important;
-box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15), inset 0 1px 2px rgba(255, 255, 255, 0.3) !important;
-margin-bottom: 1.5em !important;
-padding: 1.5em !important;
-border-radius: 6px !important;
+  background-color: #241ebd !important;
+  background-image: url("http://www.transparenttextures.com/patterns/white-diamond.png") !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.5) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+  color: #ffffff !important;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15), inset 0 1px 2px rgba(255, 255, 255, 0.3) !important;
+  margin-bottom: 1.5em !important;
+  padding: 1.5em !important;
+  border-radius: 6px !important;
 }
 
 li.blurb blockquote.userstuff.summary,
 div.preface.group blockquote.userstuff,
 li.comment blockquote.userstuff,
-.userstuff blockquote,
-.works-show div.preface.group .module blockquote {
-border-left: 3px solid rgba(255, 255, 255, 0.3) !important;
-background-color: rgba(0, 0, 0, 0.15) !important;
-background-image: none !important;
-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1) !important;
-border-radius: 4px !important;
-padding: 1em 1.5em !important;
-border-top: none !important;
-border-right: none !important;
-border-bottom: none !important;
+.userstuff blockquote {
+  border-left: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  padding-left: 0 !important;
 }
 
 li.blurb p,
@@ -182,37 +170,37 @@ dl.meta dt,
 dl.meta dd,
 div.system.flash,
 li.letter p {
-color: #f2f2f6 !important;
+  color: #f2f2f6 !important;
 }
 
 li.letter h3,
 li.letter .heading {
-background: transparent !important;
-border: none !important;
-box-shadow: none !important;
-color: #ffffff !important;
-text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #ffffff !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
 }
 
 #dashboard a,
 #dashboard span {
-background-color: rgba(100, 100, 190, 0.6) !important;
-color: #ffffff !important;
-border: 1px solid rgba(255, 255, 255, 0.3) !important;
-border-radius: 4px !important;
-display: block;
+  background-color: rgba(100, 100, 190, 0.6) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  border-radius: 4px !important;
+  display: block;
 }
 
 #dashboard a:hover {
-background-color: rgba(255, 255, 255, 0.2) !important;
-color: #fafac8 !important;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: #fafac8 !important;
 }
 
 #dashboard .current {
-background-color: rgba(0, 0, 0, 0.2) !important;
-color: #ebd59b !important;
-border-left: 4px solid #ebd59b !important;
-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3) !important;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  color: #ebd59b !important;
+  border-left: 4px solid #ebd59b !important;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.3) !important;
 }
 
 li.blurb h4 a:link,
@@ -223,12 +211,12 @@ div.preface.group .heading,
 div.meta .heading,
 #workskin h2,
 #workskin h3 {
-color: #ffffff !important;
-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
+  color: #ffffff !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
 }
 
 li.blurb h4 a:hover {
-color: #fafac8 !important;
+  color: #fafac8 !important;
 }
 
 li.blurb a,
@@ -239,7 +227,7 @@ div.meta a,
 #workskin a,
 li.comment a,
 dl.meta a {
-color: #ebb47b !important;
+  color: #ebb47b !important;
 }
 
 li.blurb a:hover,
@@ -250,47 +238,47 @@ div.meta a:hover,
 #workskin a:hover,
 li.comment a:hover,
 dl.meta a:hover {
-color: #fafac8 !important;
+  color: #fafac8 !important;
 }
 
 li.blurb .datetime,
 div.meta .datetime,
 .comment .datetime {
-color: #d8d8eb !important;
+  color: #d8d8eb !important;
 }
 
 li.warnings .tag,
 li.warnings a.tag,
 .work .warning a.tag {
-background: transparent !important;
-color: #ff9999 !important;
-font-weight: bold;
-border: none !important;
+  background: transparent !important;
+  color: #ff9999 !important;
+  font-weight: bold;
+  border: none !important;
 }
 
 .relationships .tag,
 .work .relationships a.tag {
-background: transparent !important;
-color: #c8fafa !important;
-border: none !important;
+  background: transparent !important;
+  color: #c8fafa !important;
+  border: none !important;
 }
 
 .freeforms .tag,
 .work .freeforms a.tag,
 .tags a.tag {
-background: transparent !important;
-color: #e1e7ec !important;
-border: none !important;
+  background: transparent !important;
+  color: #e1e7ec !important;
+  border: none !important;
 }
 
 .tags a.tag:hover,
 .tags a.tag:focus,
 .blurb .tags a.tag:hover,
 .meta .tags a.tag:hover {
-background-color: transparent !important;
-color: #fafac8 !important;
-box-shadow: none !important;
-text-decoration: underline !important;
+  background-color: transparent !important;
+  color: #fafac8 !important;
+  box-shadow: none !important;
+  text-decoration: underline !important;
 }
 
 #outer .actions a,
@@ -307,13 +295,13 @@ text-decoration: underline !important;
 .pagination a,
 .navigation a,
 .subnav a {
-background-color: rgba(100, 100, 190, 0.8) !important;
-background-image: none !important;
-color: #ffffff !important;
-border: 1px solid rgba(255, 255, 255, 0.4) !important;
-border-radius: 4px !important;
-box-shadow: 0 1px 3px rgba(0,0,0,0.2) !important;
-text-shadow: none !important;
+  background-color: rgba(100, 100, 190, 0.8) !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.4) !important;
+  border-radius: 4px !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2) !important;
+  text-shadow: none !important;
 }
 
 .pagination .current,
@@ -322,13 +310,13 @@ text-shadow: none !important;
 .subnav .current,
 .subnav .current a,
 #outer .actions .current {
-background-color: rgba(0, 0, 0, 0.2) !important;
-background-image: none !important;
-color: #ebd59b !important;
-border: 1px solid #ebd59b !important;
-border-radius: 4px !important;
-font-weight: bold;
-box-shadow: inset 0 1px 3px rgba(0,0,0,0.3) !important;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  background-image: none !important;
+  color: #ebd59b !important;
+  border: 1px solid #ebd59b !important;
+  border-radius: 4px !important;
+  font-weight: bold;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.3) !important;
 }
 
 #outer .actions a:hover,
@@ -339,48 +327,48 @@ box-shadow: inset 0 1px 3px rgba(0,0,0,0.3) !important;
 .pagination a:hover,
 .navigation a:hover,
 .subnav a:hover {
-background-color: rgba(255, 255, 255, 0.2) !important;
-color: #fafac8 !important;
-border-color: #fafac8 !important;
-text-decoration: none !important;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: #fafac8 !important;
+  border-color: #fafac8 !important;
+  text-decoration: none !important;
 }
 
 #workskin {
-border-top: 1px solid rgba(255, 255, 255, 0.5) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.5) !important;
 }
 
 #kudos {
-background-color: #241ebd !important;
-background-image: url("https://www.transparenttextures.com/patterns/white-diamond-dark.png") !important;
-border: 1px solid rgba(255, 255, 255, 0.4) !important;
-box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15), inset 0 1px 2px rgba(255, 255, 255, 0.3) !important;
-border-radius: 6px !important;
-padding: 1.5em !important;
-margin-top: 2em !important;
-margin-bottom: 2em !important;
-color: #ffffff !important;
-word-wrap: break-word !important;
-overflow-wrap: break-word !important;
-line-height: 1.6 !important;
+  background-color: #241ebd !important;
+  background-image: url("https://www.transparenttextures.com/patterns/white-diamond-dark.png") !important;
+  border: 1px solid rgba(255, 255, 255, 0.4) !important;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15), inset 0 1px 2px rgba(255, 255, 255, 0.3) !important;
+  border-radius: 6px !important;
+  padding: 1.5em !important;
+  margin-top: 2em !important;
+  margin-bottom: 2em !important;
+  color: #ffffff !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  line-height: 1.6 !important;
 }
 
 #kudos a {
-color: #ebb47b !important;
-font-weight: bold;
+  color: #ebb47b !important;
+  font-weight: bold;
 }
 
 #kudos a:hover {
-color: #fafac8 !important;
+  color: #fafac8 !important;
 }
 
 p.kudos {
-background-image: url("https://i.postimg.cc/K86jWvWD/wateraven-kudos.png") !important;
-background-size: 100px auto !important;
-background-repeat: no-repeat !important;
-background-position: left center !important;
-padding-left: 110px !important;
-min-height: 35px !important;
-margin: 0 !important;
+  background-image: url("https://i.postimg.cc/K86jWvWD/wateraven-kudos.png") !important;
+  background-size: 100px auto !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  padding-left: 110px !important;
+  min-height: 35px !important;
+  margin: 0 !important;
 }
 
 .flash,
@@ -388,84 +376,84 @@ margin: 0 !important;
 .flash.error,
 div.system.flash,
 #main .flash {
-background-color: rgba(100, 100, 190, 0.85) !important;
-border: 1px solid #ebd59b !important;
-color: #ffffff !important;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
-border-radius: 4px !important;
+  background-color: rgba(100, 100, 190, 0.85) !important;
+  border: 1px solid #ebd59b !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 4px !important;
 }
 
 form#work-filters,
 .filters {
-background-image: linear-gradient(rgba(100, 100, 190, 0.6), rgba(100, 100, 190, 0.6)), url("https://i.postimg.cc/3NfRXzcx/wateraven-night-phone-ts.jpg") !important;
-background-size: cover !important;
-background-position: center !important;
-background-repeat: no-repeat !important;
-background-color: #241ebd !important;
-border: 1px solid rgba(255, 255, 255, 0.3) !important;
-box-shadow: 0 4px 10px rgba(0,0,0,0.2) !important;
-border-radius: 6px !important;
-padding: 15px !important;
-box-sizing: border-box !important;
+  background-image: linear-gradient(rgba(100, 100, 190, 0.6), rgba(100, 100, 190, 0.6)), url("https://i.postimg.cc/3NfRXzcx/wateraven-night-phone-ts.jpg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-color: #241ebd !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2) !important;
+  border-radius: 6px !important;
+  padding: 15px !important;
+  box-sizing: border-box !important;
 }
 
 .filters fieldset,
 .filters fieldset.listbox,
 .filters dl,
 .filters dd {
-background: transparent !important;
-box-shadow: none !important;
-border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 
 .filters .expander,
 .filters dt a,
 .filters .submit input {
-background-color: rgba(100, 100, 190, 0.6) !important;
-background-image: none !important;
-color: #ffffff !important;
-border: 1px solid rgba(255, 255, 255, 0.4) !important;
-border-radius: 4px !important;
+  background-color: rgba(100, 100, 190, 0.6) !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.4) !important;
+  border-radius: 4px !important;
 }
 
 .filters .expander:hover,
 .filters dt a:hover,
 .filters .submit input:hover {
-background-color: rgba(255, 255, 255, 0.2) !important;
-border-color: #fafac8 !important;
-color: #fafac8 !important;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border-color: #fafac8 !important;
+  color: #fafac8 !important;
 }
 
 .filters legend,
 .filters h3,
 .filters dt {
-color: #ffffff !important;
-text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6) !important;
+  color: #ffffff !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6) !important;
 }
 
 #add_comment form,
 #add_comment fieldset {
-background-image: url("https://i.postimg.cc/P5ryrDmg/wateraven-night-comm-ts.jpg") !important;
-background-size: cover !important;
-background-position: center !important;
-background-repeat: no-repeat !important;
-box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(255, 255, 255, 0.2) !important;
-border-radius: 6px !important;
-padding: 1.5em !important;
-box-sizing: border-box !important;
+  background-image: url("https://i.postimg.cc/P5ryrDmg/wateraven-night-comm-ts.jpg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(255, 255, 255, 0.2) !important;
+  border-radius: 6px !important;
+  padding: 1.5em !important;
+  box-sizing: border-box !important;
 }
 
 #add_comment textarea {
-background-color: rgba(100, 100, 190, 0.8) !important;
-color: #ffffff !important;
-border: 1px solid rgba(255, 255, 255, 0.5) !important;
-border-radius: 4px !important;
-box-shadow: inset 0 2px 4px rgba(0,0,0,0.2) !important;
+  background-color: rgba(100, 100, 190, 0.8) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  border-radius: 4px !important;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.2) !important;
 }
 
 #add_comment textarea:focus {
-border-color: #ebd59b !important;
-box-shadow: 0 0 8px rgba(235, 213, 155, 0.4), inset 0 2px 4px rgba(0,0,0,0.2) !important;
+  border-color: #ebd59b !important;
+  box-shadow: 0 0 8px rgba(235, 213, 155, 0.4), inset 0 2px 4px rgba(0,0,0,0.2) !important;
 }
 
 #add_comment legend,
@@ -473,27 +461,27 @@ box-shadow: 0 0 8px rgba(235, 213, 155, 0.4), inset 0 2px 4px rgba(0,0,0,0.2) !i
 #add_comment .character_counter,
 #add_comment p.note,
 #add_comment a.help {
-color: #ffffff !important;
-text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
+  color: #ffffff !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
 }
 
 #add_comment a.help:hover {
-color: #fafac8 !important;
+  color: #fafac8 !important;
 }
 
 #add_comment .notice {
-background-color: rgba(100, 100, 190, 0.7) !important;
-color: #ffffff !important;
-border: 1px solid rgba(255,255,255,0.2) !important;
-box-shadow: none !important;
+  background-color: rgba(100, 100, 190, 0.7) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255,255,255,0.2) !important;
+  box-shadow: none !important;
 }
 
 #outer #footer {
-background-image: url("https://i.postimg.cc/TwyCkhM0/wateraven-night-foot.png") !important;
-background-size: cover !important;
-background-position: center center !important;
-background-repeat: no-repeat !important;
-background-color: transparent !important;
+  background-image: url("https://i.postimg.cc/TwyCkhM0/wateraven-night-foot.png") !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-color: transparent !important;
 }
 
 #outer #footer .heading,
@@ -507,11 +495,11 @@ background-color: transparent !important;
 #outer #footer .action,
 #outer #footer button,
 #outer #footer input {
-background: transparent !important;
-background-color: transparent !important;
-background-image: none !important;
-box-shadow: none !important;
-border: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 
 #outer #footer .heading,
@@ -521,9 +509,9 @@ border: none !important;
 #outer #footer .action,
 #outer #footer button,
 #outer #footer input {
-color: #ffffff !important;
-text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9) !important;
-font-weight: normal !important;
+  color: #ffffff !important;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9) !important;
+  font-weight: normal !important;
 }
 
 #outer #footer a:hover,
@@ -531,101 +519,101 @@ font-weight: normal !important;
 #outer #footer .action:hover,
 #outer #footer button:hover,
 #outer #footer input:hover {
-color: #fafac8 !important;
-text-decoration: underline !important;
-background: transparent !important;
+  color: #fafac8 !important;
+  text-decoration: underline !important;
+  background: transparent !important;
 }
 
 #main > p {
-color: #f2f2f6 !important;
-text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5) !important;
+  color: #f2f2f6 !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5) !important;
 }
 
 li.letter ul,
 li.letter li {
-background: transparent !important;
-border: none !important;
-box-shadow: none !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
 li.letter a.tag {
-color: #ebb47b !important;
+  color: #ebb47b !important;
 }
 
 li.letter a.tag:hover {
-color: #fafac8 !important;
-background: transparent !important;
+  color: #fafac8 !important;
+  background: transparent !important;
 }
 
 .splash .favorite li:nth-of-type(2n+1) a,
 .splash .favorite li:nth-of-type(2n+2) a,
 .splash .module ul,
 .splash .module li {
-background: transparent !important;
-box-shadow: none !important;
-color: #ebb47b !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: #ebb47b !important;
 }
 
 .splash .favorite li a:hover {
-color: #fafac8 !important;
-background: transparent !important;
+  color: #fafac8 !important;
+  background: transparent !important;
 }
 
 li.unread,
 .dashboard .unread {
-background-color: rgba(100, 100, 190, 0.7) !important;
-border: 1px dashed #ebd59b !important;
+  background-color: rgba(100, 100, 190, 0.7) !important;
+  border: 1px dashed #ebd59b !important;
 }
 
 h4.heading.byline,
 .unread h4.heading,
 .reading h4.viewed {
-background: transparent !important;
-background-color: transparent !important;
-box-shadow: none !important;
-border: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 
 .works-show div.preface.group,
 .chapters-show div.preface.group,
 #workskin {
-border-left: none !important;
-border-radius: 6px !important;
+  border-left: none !important;
+  border-radius: 6px !important;
 }
 
 .tags.cloud a,
 .tags.cloud a.tag {
-color: #ebb47b !important;
-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6) !important;
+  color: #ebb47b !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6) !important;
 }
 
 .tags.cloud a:hover,
 .tags.cloud a.tag:hover {
-color: #fafac8 !important;
-text-decoration: underline !important;
-background: transparent !important;
+  color: #fafac8 !important;
+  text-decoration: underline !important;
+  background: transparent !important;
 }
 
 .skin.show .userstuff,
 .skin.show .css {
-background-color: #241ebd !important;
-background-image: url("https://www.transparenttextures.com/patterns/white-diamond-dark.png") !important;
-border: 1px solid rgba(255, 255, 255, 0.3) !important;
-color: #ffffff !important;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(255, 255, 255, 0.2) !important;
-padding: 1.5em !important;
-margin-top: 1em !important;
-border-radius: 6px !important;
-font-family: monospace !important;
-text-shadow: none !important;
+  background-color: #241ebd !important;
+  background-image: url("https://www.transparenttextures.com/patterns/white-diamond-dark.png") !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(255, 255, 255, 0.2) !important;
+  padding: 1.5em !important;
+  margin-top: 1em !important;
+  border-radius: 6px !important;
+  font-family: monospace !important;
+  text-shadow: none !important;
 }
 
 .required-tags,
 .required-tags span,
 .required-tags a,
 .required-tags .text {
-text-shadow: none !important;
-color: transparent !important;
+  text-shadow: none !important;
+  color: transparent !important;
 }
 
 .tag.profile .group,
@@ -634,29 +622,29 @@ color: transparent !important;
 .tag.profile .module dt,
 .tag.profile .module ul,
 .tag.profile .module li {
-background: transparent !important;
-background-color: transparent !important;
-background-image: none !important;
-border: none !important;
-box-shadow: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
 .tag.profile .module,
 .tag.profile .module p,
 .tag.profile .module span,
 .tag.profile .module a {
-color: #ebb47b !important;
-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6) !important;
+  color: #ebb47b !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6) !important;
 }
 
 .tag.profile .module h3,
 .tag.profile .module .heading {
-color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 .tag.profile .module a:hover {
-color: #fafac8 !important;
-text-decoration: underline !important;
+  color: #fafac8 !important;
+  text-decoration: underline !important;
 }
 
 .module h2,
@@ -667,23 +655,23 @@ text-decoration: underline !important;
 #main > h2,
 #dashboard > .heading,
 #dashboard > h2 {
-background: transparent !important;
-border: none !important;
-box-shadow: none !important;
-color: #ffffff !important;
-text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
-padding-bottom: 0 !important;
-margin-bottom: 1em !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #ffffff !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 1em !important;
 }
 
 .language select option:not([lang="en"]):not([lang="zh"]),
 #language_id option:not([lang="en"]):not([lang="zh"]) {
-display: none !important;
-visibility: hidden !important;
-height: 0 !important;
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
 }
 
 .language select,
 #language_id {
-max-width: 100% !important;
+  max-width: 100% !important;
 }
